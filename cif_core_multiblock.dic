@@ -15,7 +15,7 @@ data_CIF_CORE_MULTIBLOCK
     _dictionary.uri
 ;\
 https://raw.githubusercontent.com/COMCIFS/cif_multiblock/main/\
-multi_block_core.dic
+cif_core_multiblock.dic
 ;
     _dictionary.ddl_conformance   4.2.0
     _dictionary.licensing_SPDX    CC-BY-4.0

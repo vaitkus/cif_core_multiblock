@@ -1569,6 +1569,7 @@ save_ATOM_SITE
       _description_example.case
       _description_example.detail
 ;
+         _structure.id  STR_1
          loop_
            _atom_site.label
            _atom_site.occupancy
@@ -1583,9 +1584,9 @@ save_ATOM_SITE
             H13B   .5     M     2
 ;
 ;
-         A hypothetical example of a positional disorder description. Disorder
-         assembly 'M' describes a methyl group with two alternative
-         configurations '1' and '2':
+         A hypothetical example of a positional disorder description for the
+         structure designated "STR_1". Disorder assembly 'M' describes a 
+         methyl group with two alternative configurations '1' and '2':
 
                             H11B    H11A      H13B
                               .      |      .
@@ -1598,6 +1599,7 @@ save_ATOM_SITE
                             H12A    H12B    H13A
 ;
 ;
+         _structure.id  STR_I
          loop_
            _atom_site.label
            _atom_site.type_symbol
@@ -1615,9 +1617,10 @@ save_ATOM_SITE
             # ...
 ;
 ;
-         An example of a compositional disorder description. Disorder assembly
-         'A' describes a site that is simultaneously occupied by Co and Mn
-         atoms which are assigned to disorder group '1' and disorder group '2'
+         An example of a compositional disorder description for the
+         structure designated "STR_I". Disorder assembly 'A' describes 
+         a site that is simultaneously occupied by Co and Mn atoms which 
+         are assigned to disorder group '1' and disorder group '2'
          respectively.
 
          The example was created based on data from:

@@ -1582,7 +1582,7 @@ save_
        Renamed dictionary to CIF_CORE_MULTIBLOCK and adjusted the head
        category name accordingly.
 ;
-         1.2.0                    2026-07-01
+         1.1.1-dev                2026-07-01
 ;
        # Add update summary below and change date above until ready for
        # release.

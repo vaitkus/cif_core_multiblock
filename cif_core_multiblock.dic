@@ -112,10 +112,9 @@ save_atom_sites_cartn_transform.structure_id
     _definition.id                '_atom_sites_Cartn_transform.structure_id'
     _name.category_id             atom_sites_Cartn_transform
     _name.object_id               structure_id
-    _name.linked_item_id          '_atom_sites.structure_id'
 
     _import.get
-        [{'file':templ_attr.cif  'save':structure_id_key_no_linked}]
+        [{'file':templ_attr.cif  'save':structure_id_key}]
 
 save_
 
@@ -142,10 +141,9 @@ save_atom_sites_fract_transform.structure_id
     _definition.id                '_atom_sites_fract_transform.structure_id'
     _name.category_id             atom_sites_fract_transform
     _name.object_id               structure_id
-    _name.linked_item_id          '_atom_sites.structure_id'
 
     _import.get
-        [{'file':templ_attr.cif  'save':structure_id_key_no_linked}]
+        [{'file':templ_attr.cif  'save':structure_id_key}]
 
 save_
 
@@ -396,10 +394,9 @@ save_cell_measurement.structure_id
     _definition.id                '_cell_measurement.structure_id'
     _name.category_id             cell_measurement
     _name.object_id               structure_id
-    _name.linked_item_id          '_cell.structure_id'
 
     _import.get
-        [{'file':templ_attr.cif  'save':structure_id_key_no_linked}]
+        [{'file':templ_attr.cif  'save':structure_id_key}]
 
 save_
 
@@ -431,10 +428,9 @@ save_cell_measurement_refln.structure_id
     _definition.id                '_cell_measurement_refln.structure_id'
     _name.category_id             cell_measurement_refln
     _name.object_id               structure_id
-    _name.linked_item_id          '_cell_measurement.structure_id'
 
     _import.get
-        [{'file':templ_attr.cif  'save':structure_id_key_no_linked}]
+        [{'file':templ_attr.cif  'save':structure_id_key}]
 
 save_
 
